@@ -1,6 +1,6 @@
 
 exports.up = function (knex) {
-  return knex.schema.createTable('ongs', function (table) {
+  return knex.schema.createTable('incidents', function (table) {
     // primary key
     table.increments();
 
